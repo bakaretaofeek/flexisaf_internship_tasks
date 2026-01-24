@@ -6,7 +6,6 @@ import random
 print('This is a game of rock, paper and scissors... You can only input one of rock, paper or scissors')
 # These are the options for the computer to choose from
 choices = ['rock', 'paper', 'scissors']
-print(choices)
 # collecting the choice of user
 user_choice = input('what is your choice: ').lower()
 # the computer randomly selects any of the three options in choices
@@ -28,6 +27,7 @@ else:
     else:
         print('Computer Wins')
     
+
 
 
 
